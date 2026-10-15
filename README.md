@@ -48,8 +48,8 @@ hospitalMetropolitanoCrud/
 
 1. **Base de Datos:**
    - Crear una base de datos en PostgreSQL llamada `hospital_db`.
-   - Verificar en `src/main/resources/META-INF/persistence.xml` que el usuario (`postgres`) y contraseña coincidan con los de su servidor local[cite: 8].
-   - La propiedad `hibernate.hbm2ddl.auto = update` creará automáticamente la tabla `citas_medicas` al ejecutar el proyecto por primera vez[cite: 8].
+   - Verificar en `src/main/resources/META-INF/persistence.xml` que el usuario (`postgres`) y contraseña coincidan con los de su servidor local.
+   - La propiedad `hibernate.hbm2ddl.auto = update` creará automáticamente la tabla `citas_medicas` al ejecutar el proyecto por primera vez.
 
 2. **Ejecución:**
    - Abrir el proyecto en NetBeans.
